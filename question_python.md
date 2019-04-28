@@ -1,7 +1,4 @@
-# Hey this is quetsion 1
-And this is the answer
-## Hey this is quetsion 2
-And this is the answer
-
-### Hey this is quetsion 3
-And this is the answer
+### What is virtual environment in Python? And how should I use virtual environment with jupyter notebook?
+Answer blabla
+### If I want to install a package with pip, should I install in virtual environment or base environment?
+Answer blabla
