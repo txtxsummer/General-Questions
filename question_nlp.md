@@ -5,6 +5,6 @@ This depends a little bit on what version of Python you're using. In Python 3, i
 
 Also, in Python 3, the universal newlines (the translating between '\n' and platform-specific newline conventions so you don't have to care about them) is available for text-mode files on any platform, not just Windows.
 
-**__From documentation:__**
+**_From documentation:_**
 
 On Windows, 'b' appended to the mode opens the file in binary mode, so there are also modes like 'rb', 'wb', and 'r+b'. Python on Windows makes a distinction between text and binary files; the end-of-line characters in text files are automatically altered slightly when data is read or written. This behind-the-scenes modification to file data is fine for ASCII text files, but it’ll corrupt binary data like that in JPEG or EXE files. Be very careful to use binary mode when reading and writing such files. On Unix, it doesn’t hurt to append a 'b' to the mode, so you can use it platform-independently for all binary files.
