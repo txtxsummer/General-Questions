@@ -10,5 +10,8 @@ Also, in Python 3, the universal newlines (the translating between '\n' and plat
 On Windows, 'b' appended to the mode opens the file in binary mode, so there are also modes like 'rb', 'wb', and 'r+b'. Python on Windows makes a distinction between text and binary files; the end-of-line characters in text files are automatically altered slightly when data is read or written. This behind-the-scenes modification to file data is fine for ASCII text files, but it’ll corrupt binary data like that in JPEG or EXE files. Be very careful to use binary mode when reading and writing such files. On Unix, it doesn’t hurt to append a 'b' to the mode, so you can use it platform-independently for all binary files.
 ### 3. When we use Spacy to tokenize strings, notice the following difference:
 ```python
+nlp = spacy.load('en_core_web_sm') # 'en_core_web_lg'/'en_core_web_md' are for large/medium size models
 mystring = 'abcdefg'
+nlp(mystring)
+nlp(u'abcdefg') # use 'u' if directly put the string in nlp function
 ```
