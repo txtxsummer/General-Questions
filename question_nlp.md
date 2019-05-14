@@ -15,3 +15,6 @@ mystring = 'abcdefg'
 nlp(mystring)
 nlp(u'abcdefg') # use 'u' if directly put the string in nlp function
 ```
+### 4. The difference between part-of-speech and dependency tags.
+https://stackoverflow.com/questions/40288323/what-do-spacys-part-of-speech-and-dependency-tags-mean
+### 5. The difference between stemming and lemmatization.
